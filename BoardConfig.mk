@@ -75,7 +75,7 @@ TW_NO_EXFAT_FUSE := true
 TW_EXCLUDE_SUPERSU := true
 
 # FSTAB
-TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/recovery.fstab
+TARGET_RECOVERY_FSTAB := $(DEVICE_TREE)/recovery.fstab
 
 # Encryption support
 TW_INCLUDE_CRYPTO := true

@@ -42,7 +42,7 @@ void vendor_load_properties()
 	if (strstr(bootloader, "J200G")) {
 		property_set("ro.product.model", "SM-J200G");
 		property_set("ro.product.name", "j2lte");
-	} else if (strstr(bootloader, "J200GU")) 
+	} else if (strstr(bootloader, "J200GU")) {
 		property_set("ro.product.model", "SM-J200GU");
 		property_set("ro.product.name", "j2lte");
 	} else if (strstr(bootloader, "J200M")) {
